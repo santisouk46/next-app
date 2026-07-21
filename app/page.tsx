@@ -29,6 +29,8 @@ export default function Home() {
       <p className='text-4xl font-bold mb-4'>
         ✨✨✨✨✨✨✨✨✨
       </p>
+      <hr />
+      <iframe width="auto" height="auto" src="https://www.youtube.com/embed/8SYc39sSHgM?si=939ZV7siW6yPkPBd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
   );
 }
