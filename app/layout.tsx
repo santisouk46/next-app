@@ -1,6 +1,18 @@
 import type { Metadata } from "next";
+import localFont from 'next/font/local';
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+
+const myCustomFont = localFont({
+  src: [
+    {
+      path: '../public/fonts/phetsarath_ot.woff2',
+      weight: '400',
+      style: 'normal',
+    },
+  ],
+  variable: '--font-custom', // Defines the custom CSS variable
+});
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -25,7 +37,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+      className={` ${myCustomFont.variable} ${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">{children}</body>
     </html>
