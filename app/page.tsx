@@ -11,6 +11,24 @@ export default function Home() {
       <p className='text-4xl font-bold mb-4'>
         Savannakhet University
       </p>
+      <p className='text-4xl font-bold mb-4'>
+        ✨✨✨✨✨✨✨✨✨
+      </p>
+      <p className='text-3xl font-bold mb-4'>
+        ສຶກສາດີ ມີວິໄນ ວິໄຈເດັ່ນ
+      </p>
+      <p className='text-3xl font-bold mb-4'>
+        ເນັ້ນການບໍລິການ ສືບສານວັດທະນະທຳ
+      </p>
+      <p className='text-3xl font-bold mb-4'>
+        ນຳໜ້າດ້ານວິຊາການ
+      </p>
+      <p className='text-3xl font-bold mb-4'>
+        ກ່າວຂານໃນຂົງເຂດພາກກາງ
+      </p>
+      <p className='text-4xl font-bold mb-4'>
+        ✨✨✨✨✨✨✨✨✨
+      </p>
     </div>
   );
 }
